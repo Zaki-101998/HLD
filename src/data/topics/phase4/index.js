@@ -12,6 +12,12 @@ import videoStreaming from './video-streaming.js'
 import uber from './uber.js'
 import dropbox from './dropbox.js'
 import paymentSystem from './payment-system.js'
+import ticketBooking from './ticket-booking.js'
+import googleDocs from './google-docs.js'
+import distributedCache from './distributed-cache.js'
+import proximityService from './proximity-service.js'
+import adClickAggregator from './ad-click-aggregator.js'
+import jobScheduler from './job-scheduler.js'
 
 export default [
   interviewFramework,
@@ -28,4 +34,10 @@ export default [
   uber,
   dropbox,
   paymentSystem,
+  ticketBooking,
+  googleDocs,
+  distributedCache,
+  proximityService,
+  adClickAggregator,
+  jobScheduler,
 ]
